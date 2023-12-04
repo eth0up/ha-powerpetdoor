@@ -10,7 +10,7 @@ from homeassistant.const import (
     ATTR_ENTITY_ID,
 )
 
-DOMAIN = "powerpetdoor"
+DOMAIN = "powerpetdoor2"
 
 CONF_REFRESH = "refresh"
 CONF_UPDATE = "update"
@@ -24,7 +24,7 @@ STATE_LAST_CHANGE = "last_change"
 STATE_BATTERY_CHARGING = "battery_charging"
 STATE_BATTERY_DISCHARGING = "battery_discharging"
 
-DEFAULT_NAME = "Power Pet Door"
+DEFAULT_NAME = "Power Pet Door 2"
 DEFAULT_PORT = 3000
 DEFAULT_CONNECT_TIMEOUT = 10.0
 DEFAULT_RECONNECT_TIMEOUT = 5.0
